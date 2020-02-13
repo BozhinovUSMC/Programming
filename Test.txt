@@ -1,6 +1,5 @@
 
 Updating with Bash
-
 Update with Tortoise
 Change
 More changes
