@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 2", "Homework\Задача 2.csproj", "{ECFADAB4-DA33-420F-B51C-E55F28DC6378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 1", "Задача 1\Задача 1.csproj", "{B5EA444F-8E73-4CF4-BFFC-00D2828D8AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 3", "Задача 3\Задача 3.csproj", "{2287822D-0050-48A8-BD28-83CA5CE4F141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFADAB4-DA33-420F-B51C-E55F28DC6378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFADAB4-DA33-420F-B51C-E55F28DC6378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFADAB4-DA33-420F-B51C-E55F28DC6378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFADAB4-DA33-420F-B51C-E55F28DC6378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EA444F-8E73-4CF4-BFFC-00D2828D8AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EA444F-8E73-4CF4-BFFC-00D2828D8AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EA444F-8E73-4CF4-BFFC-00D2828D8AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EA444F-8E73-4CF4-BFFC-00D2828D8AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2287822D-0050-48A8-BD28-83CA5CE4F141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2287822D-0050-48A8-BD28-83CA5CE4F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2287822D-0050-48A8-BD28-83CA5CE4F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2287822D-0050-48A8-BD28-83CA5CE4F141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5F2E691-72DB-45B9-AF17-C12CBD671198}
+	EndGlobalSection
+EndGlobal
