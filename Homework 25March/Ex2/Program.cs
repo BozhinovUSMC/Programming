@@ -14,9 +14,9 @@ namespace EX2
             List<int> nums1 = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             List<int> nums2 = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
-            List<int> resSame = new List<int>();
-            List<int> resN1 = new List<int>();
-            List<int> resN2 = new List<int>();
+            List<int> res = new List<int>();
+            List<int> res1 = new List<int>();
+            List<int> res2 = new List<int>();
 
             int len1 = nums1.Count;
             int len2 = nums2.Count;
@@ -25,7 +25,7 @@ namespace EX2
             {
                 if (nums2.Contains(nums1[i]))
                 {
-                    resSame.Add(nums1[i]);
+                    res.Add(nums1[i]);
                 }
             }
 
@@ -33,7 +33,7 @@ namespace EX2
             {
                 if (!nums2.Contains(nums1[i]))
                 {
-                    resN1.Add(nums1[i]);
+                    res1.Add(nums1[i]);
                 }
             }
 
@@ -41,27 +41,23 @@ namespace EX2
             {
                 if (!nums1.Contains(nums2[i]))
                 {
-                    resN2.Add(nums2[i]);
+                    res2.Add(nums2[i]);
                 }
             }
 
-            Console.WriteLine("Same");
-            foreach (var item in resSame)
+            foreach (var item in res)
             {
                 Console.Write(item + " ");
             }
             Console.WriteLine();
-
-            Console.WriteLine("Special for list 1");           
-            foreach (var item in resN1)
+                      
+            foreach (var item in res1)
             {
                 Console.Write(item + " ");
             }
-
             Console.WriteLine();
-
-            Console.WriteLine("Special for list 2");
-            foreach (var item in resN2)
+            
+            foreach (var item in res2)
             {
                 Console.Write(item + " ");
             }
